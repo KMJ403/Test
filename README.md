@@ -44,7 +44,7 @@ Imputation
 
 http://www.internationalgenome.org
 
-ftp://share.sph.umich.edu/minimac3/G1K_P3_VCF_Files.tar.gz
+[download2](ftp://share.sph.umich.edu/minimac3/G1K_P3_VCF_Files.tar.gz)
 
 **Using Minimac3 v2.0.1 for imputation.**
 
