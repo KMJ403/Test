@@ -15,7 +15,6 @@ Phasing
 -
 * Change the PLINK(ped/map) file to vcf format.
 
-
 	plink --file sample --recode vcf --no-pheno --no-fid --no-parents --no-sex --out sample
 The vcf file is separated into 22 vcf files by chromosome.
 
