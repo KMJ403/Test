@@ -40,7 +40,11 @@ genetic maps can be downloaded from [here](https://mathgen.stats.ox.ac.uk/geneti
 
 Imputation
 -
-1000 genome phase 3 reference panel can be downloaded from [here](http://www.internationalgenome.org)/[here2](ftp://share.sph.umich.edu/minimac3/G1K_P3_VCF_Files.tar.gz).
+1000 genome phase 3 reference panel : 
+
+[download1](http://www.internationalgenome.org)
+
+[download2](ftp://share.sph.umich.edu/minimac3/G1K_P3_VCF_Files.tar.gz)
 
 **Using Minimac3 v2.0.1 for imputation.**
 
