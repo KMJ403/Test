@@ -1,4 +1,4 @@
-snp-imputation guidelines v1.0
+fetalfraction-SNPimpute guidelines v1.0
 =
 It was designed to run on Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-66-generic x86_64) platform.
 
@@ -60,7 +60,7 @@ Command line options :
 
 *-vcf : Input the imputed vcf file.*
 
-*-maf : minor allele frequency value. SNVs whose maf value is less than the set value are removed.*
+*-maf : minor allele frequency value. SNVs whose maf value is less than the set value are removed(recommend MAF 0.07 for 1000GP3).*
 
 **maf filtering**
 
@@ -82,7 +82,7 @@ Command line options :
 
 Reformatting code can be downloaded from [here](https://github.com/KMJ403/snp-imputation).
 
-	python reformat_v1.py sample_chrN.filter2.ped
+	python ped-reformat_v1.py sample_chrN.filter2.ped
 Estimation fetal fraction
 -
 Using imputed PLINK(ped/map) files. Estimating fetal fraction code can be downloaded from [here]( https://github.com/KMJ403/snp-imputation).
@@ -98,7 +98,7 @@ Command line options :
 **Estimation fetal fraction**
 
 
-	python snp-imputation_v1.py -N sampleID.pileup -I /input/data/ -O /output/data/
+	python fetalfraction-SNPimpute_v1.py -N sampleID.pileup -I /input/data/ -O /output/data/
 We provide 'pileup file' and 'imputed(using 1000GP3) PLINK file' to help you understand the input values. These files contain only information about chromosome 3. 
 
 Sample source can be downloaded from [here](https://github.com/KMJ403/snp-imputation).
